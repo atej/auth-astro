@@ -17,8 +17,8 @@
 		"format": "prettier --config .prettierrc --ignore-path .prettierignore -w  ."
 	},
 	"peerDependencies": {
-		"@auth/core": "^0.5.1",
-		"astro": "^2.0.0"
+		"@auth/core": "^0.12.0",
+		"astro": "^2.10.7"
 	},
 	"devDependencies": {
 		"@auth/core": "^0.12.0",
