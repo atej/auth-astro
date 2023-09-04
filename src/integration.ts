@@ -3,7 +3,7 @@ import { dirname, join } from 'path'
 import { type AstroAuthConfig, virtualConfigModule } from './config'
 
 export default (config: AstroAuthConfig = {}): AstroIntegration => ({
-	name: 'astro-auth',
+	name: 'auth-astro',
 	hooks: {
 		'astro:config:setup': ({ config: astroConfig, injectRoute, injectScript, updateConfig }) => {
 			if (astroConfig.output === 'static')
